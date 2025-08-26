@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhaoze Wang"
+title                    : "Jingyi Zhang"
 description              : ""
-repository               : "Wangzhaoze.github.io"
+repository               : "jingyi0126.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhaoze (Patrick) Wang"
-  avatar           : "images/1693343492359.png"
+  name             : "Jingyi Zhang"
+  avatar           : "images/photo.png"
   bio              : "PhD Student @FORVIA HELLA & @nxtAIM in Autonomous Driving and Generative AI"
-  location         : "Lippstadt, Germany"
+  location         : "Munich, Germany"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=Fi2HyHYAAAAJ&hl=en&oi=ao"
-  email            : "wangzhaoze@outlook.com"
-  researchgate     : "https://www.researchgate.net/profile/Zhaoze-Wang-2"
+  googlescholar    : 
+  email            : "zjy20000126@gmail.com"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Wangzhaoze"
+  github           : "jingyi0126"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "wangzhaoze"
+  linkedin         : "zhangjingyi-tum"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/0009-0000-3158-8239"
   pinterest        :
