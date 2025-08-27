@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jingyi Zhang"
-  avatar           : "images/photo.png"
+  avatar           : "images/photo.jpg"
   bio              : "PhD Student @FORVIA HELLA & @nxtAIM in Autonomous Driving and Generative AI"
   location         : "Munich, Germany"
   employer         :
