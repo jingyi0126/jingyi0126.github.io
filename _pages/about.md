@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Introduction
+# Introduction
 
 Data Engineer with experience in designing, building, and optimizing data pipelines and warehouse solutions. Skilled in Python, SQL, Azure Data Lake, Power BI, and ETL development. Experienced in applying machine learning models for predictive analytics and process optimization, bridging data engineering with data science. Passionate about scalable data architectures, performance optimization, and transforming complex data into actionable insights.
 
@@ -26,16 +26,14 @@ Data Engineer with experience in designing, building, and optimizing data pipeli
 - *2025.06*: &nbsp;🎉🎉 Start my master's thesis at TUM, focusing on **process mining and deep learning**
 - *2024.11*: &nbsp;🎉🎉 Begin working as a **Working Student** Data Engineer at MARTIN GmbH für Umwelt- und Energietechnik
 - *2024.06*: &nbsp;🎉🎉 Start as a **Research Assistant** at SAP UCC München
-- *2023.10*: &nbsp;🎉🎉 Enroll in the M.Sc. program at Technische Universität München
-- *2023.07*: &nbsp;🎉🎉 Graduate with a B.Sc. from Technische Universität Clausthal
+- *2023.10*: &nbsp;🎉🎉 Commenced Master of Science studies in Robotics, Cognition und Intelligence at Technische Universität München
+- *2023.07*: &nbsp;🎉🎉 Awarded Bachelor of Science degree in Chemistry from Technische Universität Clausthal
 
 
 # 📖 Educations
 <span class='anchor' id='educations'></span>
-- *2023.10 - present*: Technische Universität München  
-                       Major: M.Sc. Robotics, Cognition und Intelligence
-- *2021.04 - 2023.07*: Technische Universität Clausthal  
-                       Major: Chemistry
+- *2023.10 - present*: Technische Universität München  Major: M.Sc. Robotics, Cognition und Intelligence
+- *2021.04 - 2023.07*: Technische Universität Clausthal  Major: Chemistry
 
 # 💻 Work Experience
 <span class='anchor' id='work-experience'></span>
@@ -48,72 +46,66 @@ Data Engineer with experience in designing, building, and optimizing data pipeli
 # 📝 Project
 <span class='anchor' id='project'></span>
 
-<div class="project-grid">
-  <div class="project-card">
-    <a href="/projects/radxgps.html" target="_blank">
-      <img src="images/res_plot.png" alt="RADxGPS" class="project-img">
-      <div class="project-title">RADxGPS</div>
-    </a>
-  </div>
-  <div class="project-card">
-    <a href="/projects/process-mining.html" target="_blank">
-      <img src="images/500x300.png" alt="Process Mining" class="project-img">
-      <div class="project-title">Process Mining</div>
-    </a>
-  </div>
-  <div class="project-card">
-    <a href="/projects/data-engineering.html" target="_blank">
-      <img src="images/1693343492359.png" alt="Data Engineering" class="project-img">
-      <div class="project-title">Data Engineering @ MARTIN</div>
-    </a>
-  </div>
-  <div class="project-card">
-    <a href="/projects/sap-ucc.html" target="_blank">
-      <img src="images/android-chrome-192x192.png" alt="SAP UCC" class="project-img">
-      <div class="project-title">SAP UCC Research Assistant</div>
-    </a>
-  </div>
+<div class="project-list">
+  <a class="project-row" href="/projects/MA.html" target="_blank">
+    <img src="../images/MA_cover.png" alt="MA_cover" class="project-img-vertical">
+    <div class="project-title-vertical">Master Thesis: Graph-Aware Next Event Prediction via GNN-Augmented Large Language Models</div>
+  </a>
+  <a class="project-row" href="/projects/process-mining.html" target="_blank">
+    <img src="images/500x300.png" alt="Process Mining" class="project-img-vertical">
+    <div class="project-title-vertical">Process Mining</div>
+  </a>
+  <a class="project-row" href="/projects/data-engineering.html" target="_blank">
+    <img src="images/1693343492359.png" alt="Data Engineering" class="project-img-vertical">
+    <div class="project-title-vertical">Data Engineering @ MARTIN</div>
+  </a>
+  <a class="project-row" href="/projects/mlcms.html" target="_blank">
+    <img src="../images/mlcms_cover.png" alt="ML Practical course" class="project-img-vertical">
+    <div class="project-title-vertical">Machine Learning in Crowd Modelling and Simulation</div>
+  </a>
 </div>
 <style>
-.project-grid {
+.project-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  justify-content: center;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 12px;
 }
-.project-card {
+.project-row {
+  display: flex;
+  align-items: center;
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  width: 220px;
-  padding: 14px;
-  text-align: center;
+  padding: 18px 24px;
+  text-decoration: none;
   transition: box-shadow 0.2s;
 }
-.project-card:hover {
+.project-row:hover {
   box-shadow: 0 4px 16px rgba(0,0,0,0.16);
+  background: #f5faff;
 }
-.project-img {
-  width: 100%;
-  height: 120px;
+.project-img-vertical {
+  width: 120px;
+  height: 90px;
   object-fit: cover;
   border-radius: 8px;
+  margin-right: 28px;
 }
-.project-title {
+.project-title-vertical {
   font-weight: bold;
-  font-size: 1.05em;
-  margin: 10px 0 0 0;
+  font-size: 1.08em;
   color: #222;
 }
 </style>
 
+<div style="height:32px;"></div>
 
 # 📑 Certificates
 <span class='anchor' id='certificates'></span>
 
-<!-- Add your certificates below, e.g. -->
-- Data Science Certificate, Coursera, 2023
-- Azure Fundamentals, Microsoft, 2022
+- <a href="../docs/Power BI Certification.pdf" target="_blank">Microsoft Certified: Power BI Data Analyst Associate</a>
+- <a href="../docs/sql.pdf" target="_blank">SQL Fundamental</a>
 
 
 

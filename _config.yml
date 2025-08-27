@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jingyi Zhang"
   avatar           : "images/photo.jpg"
-  bio              : "PhD Student @FORVIA HELLA & @nxtAIM in Autonomous Driving and Generative AI"
+  bio              : "Data Engineer | M.Sc. Robotics, Cognition und Intelligence @ TUM "
   location         : "Munich, Germany"
   employer         :
   pubmed           : 
@@ -45,7 +45,8 @@ author:
   lastfm           :
   linkedin         : "zhangjingyi-tum"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0009-0000-3158-8239"
+  tableau          :
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
