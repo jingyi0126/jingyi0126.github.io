@@ -27,6 +27,8 @@ permalink: /projects/mlcms.html
 **Time:** March 2024 - July 2024  
 **Location:** Munich, Germany
 
+# Machine Learning in Crowd Modelling and Simulation
+
 # Project Overview
 
 The practical course consists of 6 projects, including the systematic study and implementation of algorithms related to crowd modeling, dynamic systems theory, machine learning techniques and numerical analysis of complex systems, the development of extensions to the simulation software (Vadere), the validation of models and data, and the construction of a neural network applied to the simulation results to model pedestrian movement speed.
