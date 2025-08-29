@@ -68,14 +68,52 @@ The proposed approach integrates both semantic and structural information from b
     <td style="width:50%; vertical-align:middle;">Beyond textual content, business processes exhibit complex structural relationships, such as the order of activities, frequency of transitions, and time intervals between events. In this branch, the event log is transformed into a graph structure, where nodes represent activities and edges capture the connections, transition frequencies, and temporal dynamics. Graph neural networks are then applied to learn from these structural dependencies, enabling the model to reason about the overall process flow, detect recurring patterns, and account for variations in process execution. This structural perspective complements the semantic information, providing a holistic view of the process for next event prediction.</td>
     <td style="width:50%; vertical-align:middle; text-align:center;"><img src="../images/MA3.png" alt="示意图" style="max-width:100%; border-radius:8px;"></td>
   </tr>
-</table>
-
-The semantic and structural representations are then combined and fed into a unified predictive framework. This architecture allows the model to reason jointly about process semantics and structure, supporting more accurate and robust next event predictions.
+</table>The semantic and structural representations are then combined and fed into a unified predictive framework. This architecture allows the model to reason jointly about process semantics and structure, supporting more accurate and robust next event predictions.
 ---
 
 ## 4. Results & Discussion
-- **Prediction Performance**
-- **Case Studies**
-- **Limitations and Future Work**
+
+### 4.1 Current Training Progress
+The model is under active development. Initial training runs focus on validating the joint representation learning (semantic + structural). Below are the core metrics being tracked:
+
+| Phase | Objective | Status |
+|-------|-----------|--------|
+| Pretraining (LLM embeddings frozen) | Stabilize structural branch & classifier | Completed initial pass |
+| Joint Fine-Tuning | Align semantic + structural spaces | In progress |
+| Hyperparameter Sweep | Learning rate / dropout / pooling strategy | Scheduled |
+
+### 4.2 Loss & Accuracy Trends
+The following plots will be updated iteratively as experiments progress:
+
+<div style="display:flex; gap:24px; flex-wrap:wrap; justify-content:center;">
+  <figure style="flex:1; min-width:320px; max-width:420px; text-align:center;">
+    <img src="../images/MA_loss.png" alt="Training / Validation Loss" style="max-width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="font-size:0.85em; margin-top:6px;">Figure 1. Training vs. validation loss (to be updated).</figcaption>
+  </figure>
+  <figure style="flex:1; min-width:320px; max-width:420px; text-align:center;">
+    <img src="../images/MA_acc.png" alt="Accuracy Metrics" style="max-width:100%; border:1px solid #ddd; border-radius:6px;">
+    <figcaption style="font-size:0.85em; margin-top:6px;">Figure 2. Top-1 / Top-k accuracy curve (to be updated).</figcaption>
+  </figure>
+</div>
+
+Planned evaluation metrics:
+- Top-1 / Top-3 / Top-5 accuracy
+- Macro / weighted F1 (for imbalanced activity spaces)
+
+### 4.3 Qualitative Error Inspection (Planned)
+Mis-prediction clusters will be analyzed to see whether they stem from:
+- Semantic ambiguity in activity labels
+- Under-represented transition patterns in the graph
+- Temporal irregularities (bursty sequences vs. long delays)
+- Concept drift across different time windows
+
+### 4.4 Ablation Roadmap
+Upcoming controlled comparisons will isolate the contribution of each component:
+1. LLM-only baseline (no graph branch)
+2. GNN-only baseline (one-hot / simple textual tokenization)
+3. Full model (LLM + GNN + time + pooling strategy)
+
+> Project Status: Ongoing. More figures, tables, and analysis will be added in the coming weeks as additional training runs complete.
+
 
 </div>
