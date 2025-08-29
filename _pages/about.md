@@ -28,7 +28,7 @@ Data Engineer with experience in designing, building, and optimizing data pipeli
 - *2024.06*: &nbsp;🎉🎉 Start as a **Research Assistant** at SAP UCC München
 - *2023.10*: &nbsp;🎉🎉 Commenced Master of Science studies in Robotics, Cognition und Intelligence at Technische Universität München
 - *2023.07*: &nbsp;🎉🎉 Awarded Bachelor of Science degree in Chemistry from Technische Universität Clausthal
-
+- *2022.10*: &nbsp;🎉🎉 Awarded the **Deutschlandstipendium (German National Scholarship)** by the Federal Ministry of Education and Research (BMBF) at **TU Clausthal**
 
 # 📖 Educations
 <span class='anchor' id='educations'></span>
@@ -51,9 +51,9 @@ Data Engineer with experience in designing, building, and optimizing data pipeli
     <img src="../images/MA_cover.png" alt="MA_cover" class="project-img-vertical">
     <div class="project-title-vertical">Master Thesis: Graph-Aware Next Event Prediction via GNN-Augmented Large Language Models</div>
   </a>
-  <a class="project-row" href="/projects/process-mining.html" target="_blank">
-    <img src="images/500x300.png" alt="Process Mining" class="project-img-vertical">
-    <div class="project-title-vertical">Process Mining</div>
+  <a class="project-row" href="/projects/sap.html" target="_blank">
+    <img src="../images/p2p_cover.jpg" alt="Purchase-to-Pay Process" class="project-img-vertical">
+    <div class="project-title-vertical">Purchase-to-Pay Process</div>
   </a>
   <a class="project-row" href="/projects/data-engineering.html" target="_blank">
     <img src="images/1693343492359.png" alt="Data Engineering" class="project-img-vertical">
