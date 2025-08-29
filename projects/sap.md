@@ -85,7 +85,7 @@ The semantic data model normalizes core procurement entities to minimize redunda
       <img src="../images/abap.png" alt="ABAP Repository Overview" style="max-width:100%; border:1px solid #ddd; border-radius:6px;">
       <div style="font-size:0.75em; color:#666; margin-top:6px;">ABAP repository objects</div>
     </td>
-    <td style="width:55%; vertical-align:middle;">
+  <td style="width:55%; vertical-align:middle; padding-left:22px;">
 The ABAP backend defines semantic building blocks and normalized tables for master data plus transactional purchase requisitions. CDS views wrap these tables with joins, annotations and filtered projections for Fiori / OData consumption. A behavior implementation class enforces valid state transitions, encapsulates validations and emits lightweight events picked up by the BTP layer. A small seed class generates sample data for testing and integration, while the design separates master and transactional schemas to simplify delta fetch, keep business rules centralized, and support clean extensibility with minimal refactoring.
     </td>
   </tr>

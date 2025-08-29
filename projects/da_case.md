@@ -37,20 +37,17 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
 <div class="data-scope">
   <div class="ds-section">
     <span class="ds-label">Dataset</span>
-    <span class="ds-value">Tableau Superstore sample (Orders + Returns excluded).</span>
+    <span class="ds-value">Tableau Superstore sample</span>
   </div>
   <div class="ds-section">
     <span class="ds-label">Core Fields</span>
-    <span class="ds-value">Order Date · Sales · Profit · Quantity · Discount · Category · Sub-Category · Segment · Region · State · Customer ID</span>
+    <span class="ds-value">Order Date · Sales · Profit · Quantity · Category · Sub-Category · Segment · Region · State · Customer ID</span>
   </div>
   <div class="ds-section">
     <span class="ds-label">Aggregation</span>
-    <span class="ds-value">Monthly (drill to day)</span>
+    <span class="ds-value">Year (drill to month)</span>
   </div>
-  <div class="ds-section">
-    <span class="ds-label">Derived Metrics</span>
-    <span class="ds-value">YoY Δ · Profit Margin (Profit / Sales) · Top-N Contribution</span>
-  </div>
+
 </div>
 
 <style>
@@ -65,7 +62,7 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
 </style>
 
 <div style="text-align:center; margin:24px 0;">
-  <img src="../images/super.png" alt="Superstore Overview Dashboard" style="width:100%; border:1px solid #ddd; border-radius:8px;">
+  <img src="../images/Super.png" alt="Superstore Overview Dashboard" style="width:100%; border:1px solid #ddd; border-radius:8px;">
   <div style="font-size:0.75em; color:#666; margin-top:6px;">Figure: Consolidated executive dashboard (expanded full-width view).</div>
 </div>
 
