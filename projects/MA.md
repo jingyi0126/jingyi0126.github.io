@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: clean
 title: "Master Thesis: Graph-Aware Next Event Prediction via GNN-Augmented Large Language Models"
 permalink: /projects/MA.html
 ---
@@ -23,7 +23,7 @@ permalink: /projects/MA.html
   }
 </style>
 
-<div class="main-content">
+<div class="main-content" markdown="1">
 
 **Time:** **June 2025 - present**  
 **Location:** **Munich, Germany**
