@@ -56,8 +56,8 @@ Data Engineer with experience in designing, building, and optimizing data pipeli
     <div class="project-title-vertical">Purchase-to-Pay Process</div>
   </a>
   <a class="project-row" href="/projects/data-engineering.html" target="_blank">
-    <img src="images/1693343492359.png" alt="Data Engineering" class="project-img-vertical">
-    <div class="project-title-vertical">Data Engineering @ MARTIN</div>
+    <img src="../images/case_cover.png" alt="Superstore Dashboard Analytics Case Study" class="project-img-vertical">
+    <div class="project-title-vertical">Supermarket data analysis case</div>
   </a>
   <a class="project-row" href="/projects/mlcms.html" target="_blank">
     <img src="../images/mlcms_cover.png" alt="ML Practical course" class="project-img-vertical">

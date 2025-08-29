@@ -93,21 +93,15 @@ The ABAP backend defines semantic building blocks (data elements & domains) and 
 
 ## UI Screens (Results)
 
-<div class="ui-pair">
-  <figure>
-    <img src="../images/error.png" alt="Error Handling UI list view" style="max-width:100%; border:1px solid #ddd; border-radius:6px;">
-    <figcaption style="font-size:0.75em; margin-top:6px; color:#555;">(a) Error Handling app – filtered list with timestamp, description, suggested action, status & criticality badges.</figcaption>
-  </figure>
-  <figure>
-    <img src="../images/in progres.png" alt="Purchase Requisition detail screen" style="max-width:100%; border:1px solid #ddd; border-radius:6px;">
-    <figcaption style="font-size:0.75em; margin-top:6px; color:#555;">(b) Purchase Requisition detail – header metadata + line items with contextual approval actions.</figcaption>
-  </figure>
-</div>
+<figure style="margin:14px 0 30px;">
+  <img src="../images/error.png" alt="Error Handling UI list view" style="width:100%; border:1px solid #ddd; border-radius:6px;">
+  <figcaption style="font-size:0.75em; margin-top:6px; color:#555; text-align:left;">(a) Error Handling app – filtered list with timestamp, description, suggested action, status & criticality badges.</figcaption>
+</figure>
 
-<style>
-  .ui-pair {display:flex; gap:28px; flex-wrap:wrap; justify-content:center; margin:20px 0 8px;}
-  .ui-pair figure {flex:1; min-width:360px; max-width:620px; margin:0;}
-</style>
+<figure style="margin:0 0 12px;">
+  <img src="../images/in progres.png" alt="Purchase Requisition detail screen" style="width:100%; border:1px solid #ddd; border-radius:6px;">
+  <figcaption style="font-size:0.75em; margin-top:6px; color:#555; text-align:left;">(b) Purchase Requisition detail – header metadata + line items with contextual approval actions.</figcaption>
+</figure>
 
 The error handling interface consolidates heterogeneous technical and business issues into a single sortable, severity‑annotated list with actionable suggestions, reducing triage time. The PR detail screen surfaces all approval‑critical attributes (org context, issuer, valuation, supplier recommendations, item breakdown) beside immediate Accept / Reject (and Faulty Accept for test scenarios) controls, shortening decision latency while preserving traceability.
 
