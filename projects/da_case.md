@@ -61,10 +61,12 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
   }
 </style>
 
-<div style="text-align:center; margin:24px 0;">
-  <img src="../images/Super.png" alt="Superstore Overview Dashboard" style="width:100%; border:1px solid #ddd; border-radius:8px;">
-  <div style="font-size:0.75em; color:#666; margin-top:6px;">Figure: Consolidated executive dashboard (expanded full-width view).</div>
+<div class="dashboard-full-bleed">
+  <img src="../images/Super.png" alt="Superstore Overview Dashboard" class="dashboard-img">
+  <div class="dashboard-caption">Figure: Consolidated executive dashboard (expanded full-width view).</div>
 </div>
+
+
 
 
 ## KPI Overview
@@ -118,7 +120,7 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
 Mini trend lines show momentum; YoY color cues (e.g., green up / red down) allow instant variance scanning.
 
 ## Geographic Insights
-Choropleth + proportional bubbles (State level) separate scale (bubble size) from efficiency (color / margin tooltip). High scale–low margin states become pricing / logistics review targets; low scale–high margin states become expansion candidates.
+Choropleth combined with proportional bubbles at state level separates scale, indicated by bubble size, from efficiency, indicated by color and margin tooltip. States with high scale but low margin become pricing and logistics review targets; states with low scale but high margin become expansion candidates.
 
 
 
