@@ -34,22 +34,89 @@ permalink: /projects/da_case.html
 Build a single-screen executive dashboard (Tableau Superstore dataset) enabling rapid insight into sales, profit, orders, customers, product structure, and geographic performance with time comparison (current period vs prior year).
 
 ## Data Scope
-Dataset: Tableau Superstore sample (Orders + Returns not used here). Core fields: Order Date, Sales, Profit, Quantity, Discount, Category, Sub-Category, Segment, Region, State, Customer ID. Aggregation: Monthly (with drill to day). Derived metrics: YoY delta, Profit Margin (Profit / Sales), Top-N contribution.
+<div class="data-scope">
+  <div class="ds-section">
+    <span class="ds-label">Dataset</span>
+    <span class="ds-value">Tableau Superstore sample (Orders + Returns excluded).</span>
+  </div>
+  <div class="ds-section">
+    <span class="ds-label">Core Fields</span>
+    <span class="ds-value">Order Date · Sales · Profit · Quantity · Discount · Category · Sub-Category · Segment · Region · State · Customer ID</span>
+  </div>
+  <div class="ds-section">
+    <span class="ds-label">Aggregation</span>
+    <span class="ds-value">Monthly (drill to day)</span>
+  </div>
+  <div class="ds-section">
+    <span class="ds-label">Derived Metrics</span>
+    <span class="ds-value">YoY Δ · Profit Margin (Profit / Sales) · Top-N Contribution</span>
+  </div>
+</div>
+
+<style>
+  .data-scope {border:1px solid #e3e6ea; background:#fafbfc; padding:14px 18px 10px; border-radius:8px; font-size:0.9em; margin:4px 0 20px;}
+  .data-scope .ds-section {display:flex; gap:10px; margin:4px 0 6px; align-items:flex-start;}
+  .data-scope .ds-label {min-width:120px; font-weight:600; color:#444; letter-spacing:0.3px;}
+  .data-scope .ds-value {flex:1; line-height:1.45;}
+  @media (max-width:640px){
+    .data-scope .ds-section{flex-direction:column;}
+    .data-scope .ds-label{min-width:auto;}
+  }
+</style>
 
 <div style="text-align:center; margin:24px 0;">
-  <img src="../images/dashboard.png" alt="Superstore Overview Dashboard" style="width:100%; border:1px solid #ddd; border-radius:8px;">
+  <img src="../images/super.png" alt="Superstore Overview Dashboard" style="width:100%; border:1px solid #ddd; border-radius:8px;">
   <div style="font-size:0.75em; color:#666; margin-top:6px;">Figure: Consolidated executive dashboard (expanded full-width view).</div>
 </div>
 
 
 ## KPI Overview
-| KPI | Interpreted Meaning | Strategic Signal (Example) |
-|-----|---------------------|----------------------------|
-| Sales | Gross revenue from orders | Growth health & scale |
-| Profit | Absolute profitability | Margin sustainability |
-| Orders | Transaction volume | Demand intensity |
-| Customers | Active unique buyers | Acquisition / retention mix |
-| Profit Margin | Profit / Sales | Pricing & discount discipline |
+<table class="kpi-table">
+  <thead>
+    <tr>
+      <th>KPI</th>
+      <th>Interpreted Meaning</th>
+      <th>Strategic Signal (Example)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sales</td>
+      <td>Gross revenue from orders</td>
+      <td>Growth health &amp; scale</td>
+    </tr>
+    <tr>
+      <td>Profit</td>
+      <td>Absolute profitability</td>
+      <td>Margin sustainability</td>
+    </tr>
+    <tr>
+      <td>Orders</td>
+      <td>Transaction volume</td>
+      <td>Demand intensity</td>
+    </tr>
+    <tr>
+      <td>Customers</td>
+      <td>Active unique buyers</td>
+      <td>Acquisition / retention mix</td>
+    </tr>
+    <tr>
+      <td>Profit Margin</td>
+      <td>Profit / Sales</td>
+      <td>Pricing &amp; discount discipline</td>
+    </tr>
+  </tbody>
+</table>
+
+<style>
+  .kpi-table {width:100%; border-collapse:collapse; margin:8px 0 18px;}
+  .kpi-table th, .kpi-table td {border:1px solid #ddd; padding:8px 10px; font-size:0.9em;}
+  .kpi-table th {background:#f8f9fa; text-align:left; font-weight:600;}
+  .kpi-table tbody tr:nth-child(even){background:#fcfcfd;}
+  @media (max-width:640px){
+    .kpi-table th, .kpi-table td {font-size:0.78em; padding:6px 6px;}
+  }
+</style>
 
 Mini trend lines show momentum; YoY color cues (e.g., green up / red down) allow instant variance scanning.
 

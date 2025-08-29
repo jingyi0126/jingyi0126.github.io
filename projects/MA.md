@@ -30,7 +30,7 @@ permalink: /projects/MA.html
 
 # Master Thesis: Graph-Aware Next Event Prediction via GNN-Augmented Large Language Models
 
-## 1. Background
+# Background
 
 Process mining is a discipline that sits at the intersection of data science and business process management. It aims to discover, monitor, and improve real processes by extracting knowledge from event logs readily available in today's information systems.
 
@@ -40,8 +40,7 @@ In business processes, predicting the next activity is crucial for proactive dec
 ![Expectation vs. Reality](../images/ppm_comparision.png)
 
 ---
-
-## 2. Project Overview: Next Event Prediction with LLM & GNN
+# Project Overview: Next Event Prediction with LLM & GNN
 This project aims to advance next event prediction in business processes by leveraging the complementary strengths of Large Language Models (LLMs) and Graph Neural Networks (GNNs). In complex business environments, event logs contain rich semantic information—such as activity names, descriptions, and contextual data—as well as intricate structural relationships between events.
 
 <div style="text-align: center;">
@@ -54,7 +53,7 @@ By integrating LLMs and GNNs, the project seeks to build a unified predictive fr
 
 ---
 
-## 3. Methodology
+# Methodology
 The proposed approach integrates both semantic and structural information from business process event logs to enhance next event prediction. The methodology consists of two main branches:
 <table style="width:100%; table-layout:fixed;">
   <tr>
@@ -71,18 +70,54 @@ The proposed approach integrates both semantic and structural information from b
 </table>The semantic and structural representations are then combined and fed into a unified predictive framework. This architecture allows the model to reason jointly about process semantics and structure, supporting more accurate and robust next event predictions.
 ---
 
-## 4. Results & Discussion
+# Results & Discussion
 
-### 4.1 Current Training Progress
+### Current Training Progress
 The model is under active development. Initial training runs focus on validating the joint representation learning (semantic + structural). Below are the core metrics being tracked:
 
-| Phase | Objective | Status |
-|-------|-----------|--------|
-| Pretraining (LLM embeddings frozen) | Stabilize structural branch & classifier | Completed initial pass |
-| Joint Fine-Tuning | Align semantic + structural spaces | In progress |
-| Hyperparameter Sweep | Learning rate / dropout / pooling strategy | Scheduled |
+<table class="phase-table">
+  <thead>
+    <tr>
+      <th style="width:30%;">Phase</th>
+      <th style="width:45%;">Objective</th>
+      <th style="width:25%;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pretraining (LLM embeddings frozen)</td>
+      <td>Stabilize structural branch &amp; classifier</td>
+      <td><span class="status done">Completed initial pass</span></td>
+    </tr>
+    <tr>
+      <td>Joint Fine-Tuning</td>
+      <td>Align semantic + structural spaces</td>
+      <td><span class="status progress">In progress</span></td>
+    </tr>
+    <tr>
+      <td>Hyperparameter Sweep</td>
+      <td>Learning rate / dropout / pooling strategy</td>
+      <td><span class="status planned">Scheduled</span></td>
+    </tr>
+  </tbody>
+</table>
 
-### 4.2 Loss & Accuracy Trends
+<style>
+  .phase-table {width:100%; border-collapse:separate; border-spacing:0 4px; margin:8px 0 18px; font-size:0.9em;}
+  .phase-table th {text-align:left; padding:10px 14px; background:#f5f7f9; font-weight:600; border:1px solid #e2e6ea; border-bottom:2px solid #d9dde1;}
+  .phase-table td {background:#fff; padding:10px 14px; border:1px solid #e2e6ea; vertical-align:top;}
+  .phase-table tbody tr {box-shadow:0 1px 2px rgba(0,0,0,0.04);} 
+  .phase-table .status {display:inline-block; padding:4px 10px; border-radius:14px; font-size:0.75em; font-weight:600; letter-spacing:0.3px;}
+  .phase-table .status.done {background:#e6f8ef; color:#1f7a3d; border:1px solid #b6e5ca;}
+  .phase-table .status.progress {background:#fff6e5; color:#8a6100; border:1px solid #eed9a8;}
+  .phase-table .status.planned {background:#eef3fc; color:#2c5593; border:1px solid #d2e0f5;}
+  @media (max-width:640px){
+    .phase-table th, .phase-table td {padding:8px 10px;}
+    .phase-table {font-size:0.82em;}
+  }
+</style>
+
+### Loss & Accuracy Trends
 The following plots will be updated iteratively as experiments progress:
 
 <div style="display:flex; gap:24px; flex-wrap:wrap; justify-content:center;">
@@ -100,14 +135,14 @@ Planned evaluation metrics:
 - Top-1 / Top-3 / Top-5 accuracy
 - Macro / weighted F1 (for imbalanced activity spaces)
 
-### 4.3 Qualitative Error Inspection (Planned)
+### Qualitative Error Inspection (Planned)
 Mis-prediction clusters will be analyzed to see whether they stem from:
 - Semantic ambiguity in activity labels
 - Under-represented transition patterns in the graph
 - Temporal irregularities (bursty sequences vs. long delays)
 - Concept drift across different time windows
 
-### 4.4 Ablation Roadmap
+### Ablation Roadmap
 Upcoming controlled comparisons will isolate the contribution of each component:
 1. LLM-only baseline (no graph branch)
 2. GNN-only baseline (one-hot / simple textual tokenization)
