@@ -4,13 +4,19 @@ title: "Master Thesis: Graph-Aware Next Event Prediction via GNN-Augmented Large
 permalink: /projects/MA.html
 ---
 
-<!-- 顶部导航栏 -->
+<!-- 顶部导航栏，只保留主页按钮 -->
 <div style="background:#222; color:#fff; padding:16px 24px; display:flex; align-items:center; font-family:sans-serif;">
-  <a href="/about.html" style="color:#fff; font-size:1.3em; font-weight:bold; text-decoration:none;">Jingyi Zhang</a>
-  <span style="margin-left:16px;">Data Engineer | M.Sc. Robotics, Cognition und Intelligence @ TUM</span>
+  <a href="/about.html" style="color:#fff; font-size:1.3em; font-weight:bold; text-decoration:none;">
+    &#8962; Homepage
+  </a>
 </div>
 
 <style>
+  body, .main-content {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif;
+    font-size: 1.08em;
+    color: #222;
+  }
   .main-content {
     max-width: 900px;
     margin: 32px auto;
@@ -20,8 +26,6 @@ permalink: /projects/MA.html
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   }
 </style>
-
-<div class="main-content">
 
 **Time:** **June 2025 - present**  
 **Location:** **Munich, Germany**
