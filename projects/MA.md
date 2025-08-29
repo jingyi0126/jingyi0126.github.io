@@ -14,7 +14,21 @@ permalink: /projects/MA.html
 **Location:** **Munich, Germany**
 # Master Thesis: Graph-Aware Next Event Prediction via GNN-Augmented Large Language Models
 
-## 1. Background
+
+
+<style>
+  .main-content {
+    max-width: 900px;
+    margin: 32px auto;
+    background: #fff;
+    padding: 32px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+</style>
+
+<div class="main-content">
+  ## 1. Background
 
 Process mining is a discipline that sits at the intersection of data science and business process management. It aims to discover, monitor, and improve real processes by extracting knowledge from event logs readily available in today's information systems.
 
@@ -43,17 +57,17 @@ By integrating LLMs and GNNs, the project seeks to build a unified predictive fr
 
 ## 3. Methodology
 The proposed approach integrates both semantic and structural information from business process event logs to enhance next event prediction. The methodology consists of two main branches:
-<table>
+<table style="width:100%; table-layout:fixed;">
   <tr>
-    <td><img src="../images/MA2.png" alt="示意图" style="width: 280px; border-radius: 8px;"></td>
-    <td>Event logs contain rich textual information, such as activity names, descriptions, and contextual attributes. In this branch, advanced language models are used to process and encode these textual elements, extracting meaningful semantic representations for each event. By leveraging the capabilities of large language models, the approach can capture subtle relationships, dependencies, and patterns within the process data that may be missed by traditional methods. This enables a deeper understanding of the context and intent behind each activity, supporting more informed and accurate predictions.</td>
+    <td style="width:50%; vertical-align:middle; text-align:center;"><img src="../images/MA2.png" alt="示意图" style="max-width:100%; border-radius:8px;"></td>
+    <td style="width:50%; vertical-align:middle;">Event logs contain rich textual information, such as activity names, descriptions, and contextual attributes. In this branch, advanced language models are used to process and encode these textual elements, extracting meaningful semantic representations for each event. By leveraging the capabilities of large language models, the approach can capture subtle relationships, dependencies, and patterns within the process data that may be missed by traditional methods. This enables a deeper understanding of the context and intent behind each activity, supporting more informed and accurate predictions.</td>
   </tr>
 </table>
 
-<table>
+<table style="width:100%; table-layout:fixed;">
   <tr>
-    <td>Beyond textual content, business processes exhibit complex structural relationships, such as the order of activities, frequency of transitions, and time intervals between events. In this branch, the event log is transformed into a graph structure, where nodes represent activities and edges capture the connections, transition frequencies, and temporal dynamics. Graph neural networks are then applied to learn from these structural dependencies, enabling the model to reason about the overall process flow, detect recurring patterns, and account for variations in process execution. This structural perspective complements the semantic information, providing a holistic view of the process for next event prediction.</td>
-    <td><img src="../images/MA3.png" alt="示意图" style="width: 280px; border-radius: 8px;"></td>
+    <td style="width:50%; vertical-align:middle;">Beyond textual content, business processes exhibit complex structural relationships, such as the order of activities, frequency of transitions, and time intervals between events. In this branch, the event log is transformed into a graph structure, where nodes represent activities and edges capture the connections, transition frequencies, and temporal dynamics. Graph neural networks are then applied to learn from these structural dependencies, enabling the model to reason about the overall process flow, detect recurring patterns, and account for variations in process execution. This structural perspective complements the semantic information, providing a holistic view of the process for next event prediction.</td>
+    <td style="width:50%; vertical-align:middle; text-align:center;"><img src="../images/MA3.png" alt="示意图" style="max-width:100%; border-radius:8px;"></td>
   </tr>
 </table>
 
@@ -65,4 +79,5 @@ The semantic and structural representations are then combined and fed into a uni
 - **Prediction Performance**
 - **Case Studies**
 - **Limitations and Future Work**
+</div>
 
