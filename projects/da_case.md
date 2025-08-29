@@ -62,7 +62,9 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
 </style>
 
 
-![Superstore 概览](../images/Super.png)
+<div style="text-align:center; margin:22px 0;">
+  <img src="../images/Super.png" alt="Superstore 概览" style="display:block; width:100%; max-width:100%; border:1px solid #ddd; border-radius:6px;">
+</div>
 
 ## KPI Overview
 <table class="kpi-table">
