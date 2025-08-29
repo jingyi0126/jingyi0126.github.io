@@ -62,10 +62,7 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
 </style>
 
 
-<figure style="margin:0 0 12px;">
-  <img src="../images/Super.png" alt="Purchase Requisition detail screen" style="width:100%; border:1px solid #ddd; border-radius:6px;">
-  <figcaption style="font-size:0.75em; margin-top:6px; color:#555; text-align:left;">Figure: Consolidated executive dashboard (expanded full-width view)</figcaption>
-</figure>
+![Superstore 概览](../images/super.png)
 
 ## KPI Overview
 <table class="kpi-table">
