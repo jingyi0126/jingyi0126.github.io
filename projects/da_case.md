@@ -62,7 +62,7 @@ Build a single-screen executive dashboard (Tableau Superstore dataset) enabling 
 </style>
 
 
-![Superstore 概览](../images/super.png)
+![Superstore 概览](../images/Super.png)
 
 ## KPI Overview
 <table class="kpi-table">
